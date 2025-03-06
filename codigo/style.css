@@ -76,7 +76,7 @@ body {
 .music-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    background-color: #fba3cc);
+    background-color: #fba3cc;
 }
 
 .rodape{
