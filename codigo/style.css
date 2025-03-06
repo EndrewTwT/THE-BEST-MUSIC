@@ -1,99 +1,108 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
 }
+
 .cabecalho {
     background-color: #fba3cc;
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     padding: 20px 0;
 }
-.cabecalho-alura{
+
+.cabecalho-alura,
+.cabecalho-imagem {
     width: 10%;
 }
-.cabecalho-imagem{
-     width: 10%;
-    
-    
-}
 
-.cabecalho-lista-item{
+.cabecalho-lista-item {
     display: inline-block;
     margin: 0 16px;
     font-size: 25px;
 }
 
-.play-list-imagem{
-    width: 10%;
-    
-}
-
-.play-list{
-    background-image: linear-gradient(#fba3cc,#fbc7e2);
-    color:white;
+.play-list {
+    background: linear-gradient(#fba3cc, #fbc7e2);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.play-list-div-conteudo{
+.play-list-div-conteudo {
     width: 35%;
 }
 
-
-.play-list-titulo{
+.play-list-titulo {
     padding: 34px 0;
 }
 
-.music{
+.music {
     padding: 24px 0;
 }
-.music-imagem{
+
+.music-imagem {
     width: 140px;
+    border-radius: 8px;
 }
 
-.music-icone{
+.music-icone {
     width: 25px;
     padding: 4px 8px;
 }
 
-.music-div{
+.music-div {
     text-align: center;
-    padding: 16px 0;
+    padding: 16px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
 
-.music-titulo{
+.music-titulo {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.music-todos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    background-color: #fba3cc;
+    padding: 20px;
+}
+
+.rodape {
+    background-color: #fba3cc;
     text-align: center;
     padding: 20px 0;
 }
 
-.music-todos{
-    display: grid;
-    grid: 20% 20% 20% 20% 20%;
-    background-color: #fba3cc;
-}
-
-.rodape{
-    background-color: #fba3cc;
-    text-align: center;
-}
-
-.rodape-imagem{
+.rodape-imagem {
     height: 60px;
-    padding: 12px 0;
-   
+    padding: 12px;
 }
 
-p{
+p {
     text-align: justify;
+    margin-bottom: 10px;
 }
 
-h2{
+h2 {
     text-align: center;
+    font-size: 28px;
 }
