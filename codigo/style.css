@@ -73,11 +73,14 @@ body {
     padding: 20px 0;
 }
 
-.music-todos{
+.music-todos {
     display: grid;
-    grid: 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     background-color: #fba3cc;
+    padding: 20px;
 }
+
 
 .rodape{
     background-color: #fba3cc;
